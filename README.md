@@ -95,7 +95,7 @@ This project investigates the impact of **Residual Neural Networks (ResNet)** on
 
 ### Comparingn with different ResNet Architecture
 
-![Comparingn with different ResNet Architecture](images/picture1.png)
+![Comparingn with different ResNet Architecture](images/pic3.png)
 
 ## Finding
 
