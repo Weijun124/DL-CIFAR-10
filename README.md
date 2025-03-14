@@ -77,18 +77,25 @@ This project investigates the impact of **Residual Neural Networks (ResNet)** on
 - **Learning rate schedule**: MultiStepLR
 - **Weight decay**: 0.001
 
-  ![ResNet-110 table](images/picture1.png)
-  ResNet-110 table
+### ResNet-110 table
 
-  ![Weight Decay vs. error rate on ResNet-110](images/1.png)
-  Weight Decay vs. error rate on ResNet-110
-  ![# parameters vs. error rate on ResNet-110](images/2.png)
-  \# parameters vs. error rate on ResNet-110
-  ![Learning rate vs. error rate on ResNet-110](images/3.png)
-  Learning rate vs. error rate on ResNet-110
+![ResNet-110 table](images/picture1.png)
 
-  ![Comparingn with different ResNet Architecture](images/pic2.png)
-  Comparingn with different ResNet Architecture
+### Weight Decay vs. error rate on ResNet-110
+
+![Weight Decay vs. error rate on ResNet-110](images/1.png)
+
+### \# parameters vs. error rate on ResNet-110
+
+![# parameters vs. error rate on ResNet-110](images/2.png)
+
+### Learning rate vs. error rate on ResNet-110
+
+![Learning rate vs. error rate on ResNet-110](images/3.png)
+
+### Comparingn with different ResNet Architecture
+
+![Comparingn with different ResNet Architecture](images/picture1.png)
 
 ## Finding
 
