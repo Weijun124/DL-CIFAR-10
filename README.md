@@ -6,7 +6,7 @@
 
 ## Overview
 
-This project investigates the impact of **Residual Neural Networks (ResNet)** on CIFAR-10 image classification. The study explores how **model depth, weight decay, learning rate scheduling, and number of parameters** affect accuracy. We compare **ResNet-110\[18,18,18\], ResNet-50\[3,4,6,3\], and ResNet-38\[6,6,6\]**, fine-tuning hyperparameters to identify the optimal configuration.
+This project investigates the impact of **Residual Neural Networks (ResNet)** on CIFAR-10 image classification. The study explores how **model depth, weight decay, learning rate scheduling, and number of parameters** affect accuracy. We compare **ResNet-110\[18,18,18\], ResNet-50\[3,4,6,3\], and ResNet-38\[6,6,6\]**, fine-tuning hyperparameters to find optimal model configurtion .
 
 ## Features
 
@@ -47,7 +47,9 @@ This project investigates the impact of **Residual Neural Networks (ResNet)** on
 
 ## Results
 
-### ResNet-110\[18,18,18\]:highest model (At folder 18,18,18 )
+The following results are chosen from best result
+
+### ResNet-110\[18,18,18\]:
 
 - **Training accuracy**: 97.03%
 - **Validation accuracy**: 94.22%
@@ -101,9 +103,10 @@ This project investigates the impact of **Residual Neural Networks (ResNet)** on
 
 - Weight decay (5e-4) is optimal for ResNet-110, effectively preventing overfitting.
 - Increasing the number of parameters improves accuracy.
-- The deeper layer model, the more epoch to training before stablizing
+- The deeper layer model, the more epoch to training before stablizing. For example, ResNet-110 takes 40 epoch to stablize, but ResNet-50 and 38 takes 30 epoch with weight decay 1e-4 and learning rate start from 0.1 with warm-up
 - Unexpectedly, ResNet-38 achieved the highest accuracy, likely due to the absence of a 7×7 kernel and max pooling in the current setup, which may have impacted high-level feature extraction.
 - Dropping the learning rate too early causes premature stabilization, limiting the model’s capacity for further learning and reducing accuracy on the validation test set.
+- SGD performs better than Adam in this experiment, but Adam converges faster.
 
 ## Future work
 
