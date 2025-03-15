@@ -6,7 +6,10 @@
 
 ## Overview
 
-This project investigates the impact of **Residual Neural Networks (ResNet)** on CIFAR-10 image classification. The study explores how **model depth, weight decay, learning rate scheduling, and number of parameters** affect accuracy. We compare **ResNet-110\[18,18,18\], ResNet-50\[3,4,6,3\], and ResNet-38\[6,6,6\]**, fine-tuning hyperparameters to find optimal model configurtion .
+This project investigates the impact of **Residual Neural Networks (ResNet)** on CIFAR-10 image classification. The study explores how **model depth, weight decay, learning rate scheduling, and number of parameters** affect accuracy. We compare **ResNet-110\[18,18,18\], ResNet-50\[3,4,6,3\], and ResNet-38\[6,6,6\]**, fine-tuning hyperparameters to find optimal model configuration.
+
+The data folder contains all the experiment data, which includes plot, training,g, and validation accuracy.
+The model.py is the code with comments explaining how I implement the experiment in detail.
 
 ## Features
 
